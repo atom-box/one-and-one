@@ -4,19 +4,32 @@
 
 body, html {
   height: 100%;
+  background-color: rgb(156, 146, 138);
 }
 
 * {
   box-sizing: border-box;
 }
 
+.headline {
+  color: white;
+  background-color: rgb(132, 175, 247); 
+  font-family: 'Caveat Brush' ;
+  font-size: 22px;
+}
+.sidebar, footer {
+  color: #fff;
+  font-family: 'PT Sans', monospace;
+  background-color: black
+}
+footer {
+    background-color: black;
+    text-align: right;
+}
 
-/*
-Almost nought remaining from CSS-Tricks, Sept 1st, 2018
-https://css-tricks.com/css-grid-replace-flexbox/
-Main cob is now from
-https://www.w3schools.com/howto/howto_css_blurred_background.asp
-*/
+.right {
+  float: right;
+}
 
 .bg-image {
   background-image: url("images/dadsEnergy.png");
@@ -51,21 +64,12 @@ https://www.w3schools.com/howto/howto_css_blurred_background.asp
   color: white;
 }
 
+
 .centered-text {
   text-align : center;
 }
 
-.about {
-  color: white;
-  background-color: #50f;
-  font-family: 'Caveat Brush' ;
-  font-size: 22px;
-}
 
-.sidebar {
-  background-color: green;
-  font-family: 'PT Sans', monospace;
-}
 
 .ad {
   padding: 20px;
