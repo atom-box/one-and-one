@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush'
+);
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*
+Almost nought remaining from CSS-Tricks, Sept 1st, 2018
+https://css-tricks.com/css-grid-replace-flexbox/
+Main cob is now from
+https://www.w3schools.com/howto/howto_css_blurred_background.asp
+*/
+
+.bg-image {
+  background-image: url("images/dadsEnergy.png");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.band {
+  font-family: 'PT Sans', monospace;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  min-width: 600px;
+  min-height: 200px;
+  background-color: gray;
+}
+
+.blox {
+  width: 120px;
+  height: 120px;
+  background-color: silver;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  font-size: 44px;
+  color: white;
+}
+
+.centered-text {
+  text-align : center;
+}
+
+.about {
+  color: white;
+  background-color: #50f;
+  font-family: 'Caveat Brush' ;
+  font-size: 22px;
+}
+
+.sidebar {
+  background-color: green;
+  font-family: 'PT Sans', monospace;
+}
+
+.ad {
+  padding: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  background-color: rgba(83, 89, 89, 0.5);
+}
+
+
+
