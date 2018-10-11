@@ -11,6 +11,30 @@ body, html {
   box-sizing: border-box;
 }
 
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 .headline {
   color: white;
   background-color: rgb(132, 175, 247); 
@@ -20,11 +44,12 @@ body, html {
 .sidebar, footer {
   color: #fff;
   font-family: 'PT Sans', monospace;
-  background-color: black
+  text-align: right;
 }
-footer {
-    background-color: black;
-    text-align: right;
+#about {
+  color: #fff;
+  font-family: 'PT Sans', monospace;
+  text-align: right;
 }
 
 .right {
