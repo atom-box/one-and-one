@@ -13,15 +13,23 @@ body, html {
 
 .headline {
   color: white;
-  background-color: rgb(132, 175, 247); ;
+  background-color: rgb(132, 175, 247); 
   font-family: 'Caveat Brush' ;
   font-size: 22px;
 }
-.sidebar {
+.sidebar, footer {
   color: #fff;
   font-family: 'PT Sans', monospace;
+  background-color: black
+}
+footer {
+    background-color: black;
+    text-align: right;
 }
 
+.right {
+  float: right;
+}
 
 .bg-image {
   background-image: url("images/dadsEnergy.png");
