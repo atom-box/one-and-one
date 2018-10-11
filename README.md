@@ -1,8 +1,8 @@
 # one-and-one
 
 ## About
-This was first deployed on October 10th, 2018, at http://takenattheflood.us
-It is my first real website ever.
+This was first deployed on October 10th, 2018, at http://takenattheflood.us<br/>
+It is my first real website ever!
 
 ## To Do
 * Add CSS 
