@@ -1,0 +1,10 @@
+I can't imagine preferring a GUI over the command line.
+When people say Americans have no sense of history my mind goes to developers 
+who stay in a GUI.
+I can't imagine not having my workflow in the command line.
+Love letter to BASH & Git
+Your detailed searchable history of years worth of all my verbs..  
+Add to that Version Control (e.g. Git) preserving your nouns and your whole 
+project, your whole career, becomes a Whovian landscape, the terminal 
+acting as your Tardis.
+I need a command line for my life.
