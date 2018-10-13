@@ -1,4 +1,5 @@
-# one-and-one
+# one-and-one (named for its host, the 1&1 server).
+A static web page.
 
 ## About
 This was first deployed on October 10th, 2018, at http://takenattheflood.us<br/>
