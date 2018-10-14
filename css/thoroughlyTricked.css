@@ -4,7 +4,12 @@ and cssTricks.com */
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush'
 );
 
-
+/* who knew!  css can handle variables:; */
+:root {
+    --lightRock: rgb(194, 186, 172); 
+    --darkRock: rgb(76, 77, 75);
+    --skyColor: rgb(113, 165, 249);
+}
 
 body {
   margin: 0;
@@ -19,13 +24,13 @@ body, input {
 
 #site-header {
   padding: 0.5em 2%;
-  background-color: lightblue;
+  background-color: var(--skyColor);
 }
 
 h1 {
   font-weight: lighter;
   font-size: 3em;
-  color: pink;
+  color: white;
   margin: 0.2em;
 }
 
@@ -38,21 +43,25 @@ h3 {
   font-weight: 500;
 }
 
-.content {
-  max-width: 60em;
-  margin: 0 auto;
-  padding: 0 5%;
-  box-sizing: border-box;
+.starboard {
+  text-align: right;
+  margin-right: 90px;
 }
-header {
-  background-color: rgb(113, 165, 249);
+
+.content {
+  background-color: var(--lightRock);
+  max-width: 60em;
+  min-height: 200px; /* TODO units inconsistant... */
+
+}
+#site-header {
+  background-color: rgb(194, 186, 172);
 }
 
 #pond {
   display: flex;
-  justify-content: space-around; (puts frog all the way right)
-  align-items: flex-end; (puts frogs down at the bottom)
-  background-color: rgb(76, 77, 76);
+  justify-content: space-around; 
+  align-items: flex-end; 
 }
 
 /* Dad !!!!!!!!!!! */
@@ -70,11 +79,12 @@ header {
 .blox {
   width: 120px;
   height: 120px;
-  background-color: black;
+  display: flex;
+  background-color: var(--darkRock);
   justify-content: center; 
   align-items: center; 
-  font-size: 44px;
-  color: white;
+  xfont-size: 30px;
+  color: var(--lightRock);
 }
 
 
