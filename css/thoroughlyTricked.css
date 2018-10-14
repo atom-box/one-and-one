@@ -9,6 +9,7 @@ and cssTricks.com */
     --lightRock: rgb(194, 186, 172); 
     --darkRock: rgb(76, 77, 75);
     --skyColor: rgb(113, 165, 249);
+    --palerSky: rgb(180, 230, 255 );
 }
 
 body {
@@ -30,7 +31,7 @@ body, input {
 h1 {
   font-weight: lighter;
   font-size: 3em;
-  color: white;
+  color: var(--palerSky);
   margin: 0.2em;
 }
 
@@ -41,6 +42,11 @@ h2 {
 
 h3 {
   font-weight: 500;
+}
+
+header, p {
+  color: var(--palerSky);
+  font-weight: lighter;
 }
 
 .starboard {
@@ -84,7 +90,7 @@ h3 {
   justify-content: center; 
   align-items: center; 
   xfont-size: 30px;
-  color: var(--lightRock);
+  color: var(--palerSky);
 }
 
 
