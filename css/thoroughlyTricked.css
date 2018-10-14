@@ -25,6 +25,7 @@ body, input {
 h1 {
   font-weight: lighter;
   font-size: 3em;
+  color: pink;
   margin: 0.2em;
 }
 
@@ -43,6 +44,16 @@ h3 {
   padding: 0 5%;
   box-sizing: border-box;
 }
+header {
+  background-color: rgb(113, 165, 249);
+}
+
+#pond {
+  display: flex;
+  justify-content: space-around; (puts frog all the way right)
+  align-items: flex-end; (puts frogs down at the bottom)
+  background-color: rgb(76, 77, 76);
+}
 
 /* Dad !!!!!!!!!!! */
 /*******************/
@@ -59,8 +70,7 @@ h3 {
 .blox {
   width: 120px;
   height: 120px;
-  background-color: silver;
-  display: flex;
+  background-color: black;
   justify-content: center; 
   align-items: center; 
   font-size: 44px;
