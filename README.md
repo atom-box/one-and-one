@@ -3,6 +3,8 @@ A static web page.
 Managed by ssh and git pulls at 1&1 hosting.
 It is my current pedagogical project. 
 I have found it very motivational.
+This was first deployed on October 10th, 2018, at http://takenattheflood.us<br/>
+It is my first command-line-deployment to a shared server (1&1).
 
 ## To Do
 * make both containers the same per TBS, viz width, corners
@@ -23,8 +25,7 @@ unconflicted.
 A 1947 book title by Agatha Christie beat me to this quote.
 
 ## How's it going so far?
-__I'm doing it the hard way:__
-Instead of ftp, I am updating my web page via LocalCommit -> GitHubRemote -> PullToHostingServer.  This is 3x more steps and is causing many merge/conflicts.<br>
+__I want to do it the hard way:__
+Instead of ftp, I am updating my web page via LocalCommit -> GitHubRemote -> PullToHostingServer.  This is 3x more steps and is causing many merge/conflicts. Which is actually good news, pedagogically.<br>
 __Good news:__ I'm getting much better at Git and Vim-mergetool. And it's a good place to be wrong: this is a  low-stakes, static, mostly-for-fun page. 
-This was first deployed on October 10th, 2018, at http://takenattheflood.us<br/>
-It is my first command-line-deployment to a shared server (1&1).
+
