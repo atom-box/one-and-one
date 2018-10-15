@@ -9,7 +9,13 @@ It is my first command-line-deployment to a shared server (1&1).
 * make both containers the same per TBS, viz width, corners
 * lower-res the whitney panorama
 * bring the font blue closer to the sky blue in the photo
+* refactor static html to Elm
+* add Elm model-update-view for one feature
+* learn the logs: which does which, how to download server logs to local for archiving and inspection
+* rudimentary SEO
 * Install node on their server
+* build the API
+* Twillio
 
 ## Why *Taken At The Flood*?
 This is from Act V of Julius Caesar.  Brutus explains his resolve, that 
