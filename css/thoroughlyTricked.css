@@ -9,7 +9,7 @@ and cssTricks.com */
     --lightRock: rgb(194, 186, 172); 
     --darkRock: rgb(76, 77, 75);
     --skyColor: rgb(113, 165, 249);
-    --palerSky: rgb(180, 230, 255 );
+    --palerSky: rgb(165, 220, 255 );
 }
 
 body {
@@ -47,6 +47,7 @@ h3 {
 header, p {
   color: var(--palerSky);
   font-weight: lighter;
+
 }
 
 .starboard {
@@ -56,8 +57,7 @@ header, p {
 
 .content {
   background-color: var(--lightRock);
-  max-width: 60em;
-  min-height: 200px; /* TODO units inconsistant... */
+  min-height: 160px; /* TODO units inconsistant... */
 
 }
 #site-header {
@@ -91,6 +91,7 @@ header, p {
   align-items: center; 
   xfont-size: 30px;
   color: var(--palerSky);
+  margin: 20px auto;
 }
 
 
