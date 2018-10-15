@@ -24,8 +24,7 @@ A 1947 book title by Agatha Christie beat me to this quote.
 
 ## How's it going so far?
 __I'm doing it the hard way:__
-Instead of ftp, I am updating my web page via LocalCommit -> GitHubRemote -> PullToHostingServer.  This is 3x more steps and is causing many merge/conflicts.
-Good news: 
-I'm getting much better at Git and Vim-mergetool. And it's a good place to be wrong: this is a  low-stakes, static, mostly-for-fun page. 
+Instead of ftp, I am updating my web page via LocalCommit -> GitHubRemote -> PullToHostingServer.  This is 3x more steps and is causing many merge/conflicts.<br>
+__Good news:__ I'm getting much better at Git and Vim-mergetool. And it's a good place to be wrong: this is a  low-stakes, static, mostly-for-fun page. 
 This was first deployed on October 10th, 2018, at http://takenattheflood.us<br/>
 It is my first command-line-deployment to a shared server (1&1).
