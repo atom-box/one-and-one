@@ -7,9 +7,9 @@ This was first deployed on October 10th, 2018, at http://takenattheflood.us<br/>
 It is my first command-line-deployment to a shared server (1&1).
 
 ## To Do
-* make both containers the same per TBS, viz width, corners
-* lower-res the whitney panorama
-* bring the font blue closer to the sky blue in the photo
+* style: make both containers the same per TBS, viz width, corners
+* style: lower-res the whitney panorama
+* style: bring the font blue closer to the sky blue in the photo
 * refactor static html to Elm
 * add Elm model-update-view for one feature
 * learn the logs: which does which, how to download server logs to local for archiving and inspection
