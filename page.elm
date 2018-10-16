@@ -1,4 +1,4 @@
-module Main exposing (..)
+module Page exposing (main, view)
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
@@ -13,10 +13,11 @@ view model =
             , text ") is a micro-cap regional paper and office supply distributor with an emphasis on servicing small-business clients."
             ]
         ]
-view model =
 
 
 main =
     view "dummy model"
+
+
 
 --after PawanPoudel textbook
