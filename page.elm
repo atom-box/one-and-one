@@ -5,6 +5,7 @@ import Html.Attributes exposing (..)
 
 
 
+--import Html.Attributes exposing (class, href)
 {-
    view model =
        div [ class "jumbotron" ]
@@ -26,16 +27,9 @@ view model =
                 [ text "titles and photo" ]
             , div [ class "content" ] [ text "three blox here in pond div" ]
             ]
-
-        {-
-           , footer
-               [ div [ class "starboard" ]
-                   [ p [ href "https://github.com/atom-box/one-and-one" ] [ text "Github" ]
-                   , p [ href "https://github.com/atom-box/one-and-one" ] [ text "Github" ]
-                   , p [ href "https://github.com/atom-box/one-and-one" ] [ text "Github" ]
-                   ]
-               ]
-        -}
+        , footer []
+            [ a [ href "http://elm-lang.org/" ] [ text "This page was made in Elm" ]
+            ]
         ]
 
 
