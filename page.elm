@@ -22,14 +22,21 @@ import Html.Attributes exposing (..)
 view model =
     div []
         [ div [ class "container-fluid" ]
-            [ header
-                [ id "site-header" ]
+            [ header [ id "site-header" ]
                 [ text "titles and photo" ]
-            , div [ class "content" ] [ text "three blox here in pond div" ]
+            , div [ class "content" ]
+                [ text "three blox here in pond div" ]
+            , i [ class "fa fa-pencil mr1" ] [ text "write us" ]
+            , a [ class "btn ", href "example.com" ] [ text "dust button" ]
             ]
-        , footer []
-            [ a [ href "http://elm-lang.org/" ] [ text "This page was made in Elm" ]
-            ]
+
+        {- , footer [][
+           a
+               [ class "btn regular"
+               , href path
+               ]
+               [ i [ class "fa fa-pencil mr1" ] [], text "Edit" ]
+        -}
         ]
 
 
@@ -39,3 +46,4 @@ main =
 
 
 --after PawanPoudel textbook
+-- big thanks to clarity of http://www.smoothterminal.com/articles/creating-html-elements-and-using-libraries-in-elm______@franzejr
