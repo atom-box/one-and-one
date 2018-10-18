@@ -89,7 +89,7 @@ header, p {
   background-color: var(--darkRock);
   justify-content: center; 
   align-items: center; 
-  xfont-size: 30px;
+  font-size: 30px;
   color: var(--palerSky);
   margin: 20px auto;
 }
