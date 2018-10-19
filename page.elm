@@ -19,15 +19,32 @@ import Html.Attributes exposing (..)
 -}
 
 
+contentTile describeProject =
+    div [ class "blox" ] [ text describeProject ]
+
+
+bannerImage getFrom =
+    img [ src getFrom, class "img-fluid cinch", alt "Panorama: Tom, Evan, Sam, Fred, Mt Whitney 2018" ] []
+
+
+
+-- inputtedVar
+
+
 view model =
     div []
         [ div [ class "container-fluid" ]
             [ header [ id "site-header" ]
-                [ text "titles and photo" ]
+                [ text "titles and photo " ]
             , div [ class "content" ]
-                [ text "three blox here in pond div" ]
+                [ text "three blox here in pond div"
+                , contentTile "Greek yogurt"
+                , contentTile "Greek yogurt"
+                , contentTile "Greek yogurt"
+                ]
             , i [ class "fa fa-pencil mr1" ] [ text "write us" ]
             , a [ class "btn ", href "example.com" ] [ text "dust button" ]
+            , bannerImage "images/whitneyPanorama.jpg"
             ]
 
         {- , footer [][
@@ -41,7 +58,7 @@ view model =
 
 
 main =
-    view "dummy model"
+    view "something here, anything works"
 
 
 
