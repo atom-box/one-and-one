@@ -36,15 +36,15 @@ view model =
         [ div [ class "container-fluid" ]
             [ header [ id "site-header" ]
                 [ text "titles and photo " ]
+            , bannerImage "images/whitneySmall.jpg"
             , div [ class "content" ]
                 [ text "three blox here in pond div"
                 , contentTile "Greek yogurt"
                 , contentTile "Greek yogurt"
                 , contentTile "Greek yogurt"
+                , i [ class "fab fa-github" ] [ text "write us" ]
+                , a [ class "btn ", href "example.com" ] [ text "dust button" ]
                 ]
-            , i [ class "fa fa-pencil mr1" ] [ text "write us" ]
-            , a [ class "btn ", href "example.com" ] [ text "dust button" ]
-            , bannerImage "images/whitneyPanorama.jpg"
             ]
 
         {- , footer [][
