@@ -23,6 +23,13 @@ contentTile describeProject =
     div [ class "blox" ] [ text describeProject ]
 
 
+topWords =
+    header [ id "site-header" ]
+        [ h1 [] [ text "Taken at the Flood" ]
+        , p [] [ text "Unrelentless since 10/12/2018." ]
+        ]
+
+
 bannerImage getFrom =
     img [ src getFrom, class "img-fluid cinch", alt "Panorama: Tom, Evan, Sam, Fred, Mt Whitney 2018" ] []
 
@@ -34,8 +41,7 @@ bannerImage getFrom =
 view model =
     div []
         [ div [ class "container-fluid" ]
-            [ header [ id "site-header" ]
-                [ text "titles and photo " ]
+            [ topWords
             , bannerImage "images/whitneySmall.jpg"
             , div [ class "content" ]
                 [ text "three blox here in pond div"
