@@ -18,7 +18,7 @@ body {
   font-size: 1rem;
 }
 
-body, input {
+body, input, footer {
   color: midnightblue;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
 }
@@ -67,11 +67,12 @@ header, p {
 #pond {
   display: flex;
   justify-content: space-around; 
-  align-items: flex-end; 
+  align-items: center; 
+  max-height: 160px;
 }
 
 /* Dad !!!!!!!!!!! */
-/*******************/
+/*******mothballed**/
 .bg-image {
   background-image: url("images/dadsEnergy.png");
   /* Full height */
@@ -91,7 +92,6 @@ header, p {
   align-items: center; 
   font-size: 30px;
   color: var(--palerSky);
-  margin: 20px auto;
 }
 
 

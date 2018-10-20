@@ -4,23 +4,8 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 
 
-
---import Html.Attributes exposing (class, href)
-{-
-   view model =
-       div [ class "jumbotron" ]
-           [ h1 [] [ text "Welcome to Dunder Mifflin!" ]
-           , p []
-               [ text "Dunder Mifflin Inc. (stock symbol "
-               , strong [] [ text "DMI" ]
-               , text ") is a micro-cap regional paper and office supply distributor with an emphasis on servicing small-business clients."
-               ]
-           ]
--}
-
-
 contentTile describeProject =
-    div [ class "blox" ] [ text describeProject ]
+    div [ class "blox" ] [ h3 [] [ text describeProject ] ]
 
 
 topWords =
@@ -34,18 +19,24 @@ bannerImage getFrom =
     img [ src getFrom, class "img-fluid cinch", alt "Panorama: Tom, Evan, Sam, Fred, Mt Whitney 2018" ] []
 
 
-listInDivInDiv =
+pondOfTiles =
     div [ class "content" ]
         [ div [ class "pond" ]
-            [ text "three blox here in pond div"
-            , contentTile "Greek yogurt"
-            , contentTile "Greek yogurt"
-            , contentTile "Greek yogurt"
-            , i [ class "fab fa-github" ] [ text " atom-box  " ]
-            , i [ class "fab fa-twitter" ] [ text " @mistergenest  " ]
-            , i [ class "fab fa-linkedin" ] [ text " Evan Genest  " ]
-            , i [ class "fab fa-pagelines" ] [ text " This site was compiled in Elm.js  " ]
+            --FLEXBOX START
+            [ contentTile "Life"
+            , contentTile "Obit"
+            , contentTile "Proj"
             ]
+
+        -- FLEXBOX END
+        ]
+
+
+downstairs =
+    footer []
+        [ i [ class "fab fa-github " ] [ text " atom-box  " ]
+        , i [ class "fab fa-twitter" ] [ text " @mistergenest  " ]
+        , i [ class "fab fa-linkedin" ] [ text " Evan Genest  " ]
         ]
 
 
@@ -62,7 +53,8 @@ view model =
         [ div [ class "container-fluid" ]
             [ topWords
             , bannerImage "images/whitneySmall.jpg"
-            , listInDivInDiv
+            , pondOfTiles
+            , downstairs
             ]
         , madeWith
         ]
