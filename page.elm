@@ -34,6 +34,25 @@ bannerImage getFrom =
     img [ src getFrom, class "img-fluid cinch", alt "Panorama: Tom, Evan, Sam, Fred, Mt Whitney 2018" ] []
 
 
+listInDivInDiv =
+    div [ class "content" ]
+        [ div [ class "pond" ]
+            [ text "three blox here in pond div"
+            , contentTile "Greek yogurt"
+            , contentTile "Greek yogurt"
+            , contentTile "Greek yogurt"
+            , i [ class "fab fa-github" ] [ text " atom-box  " ]
+            , i [ class "fab fa-twitter" ] [ text " @mistergenest  " ]
+            , i [ class "fab fa-linkedin" ] [ text " Evan Genest  " ]
+            , i [ class "fab fa-pagelines" ] [ text " This site was compiled in Elm.js  " ]
+            ]
+        ]
+
+
+madeWith =
+    p [] [ text "This site was compiled from Elm" ]
+
+
 
 -- inputtedVar
 
@@ -43,23 +62,9 @@ view model =
         [ div [ class "container-fluid" ]
             [ topWords
             , bannerImage "images/whitneySmall.jpg"
-            , div [ class "content" ]
-                [ text "three blox here in pond div"
-                , contentTile "Greek yogurt"
-                , contentTile "Greek yogurt"
-                , contentTile "Greek yogurt"
-                , i [ class "fab fa-github" ] [ text "write us" ]
-                , a [ class "btn ", href "example.com" ] [ text "dust button" ]
-                ]
+            , listInDivInDiv
             ]
-
-        {- , footer [][
-           a
-               [ class "btn regular"
-               , href path
-               ]
-               [ i [ class "fa fa-pencil mr1" ] [], text "Edit" ]
-        -}
+        , madeWith
         ]
 
 
