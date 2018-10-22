@@ -21,7 +21,7 @@ bannerImage getFrom =
 
 pondOfTiles =
     div [ class "content" ]
-        [ div [ class "pond" ]
+        [ div [ id "pond" ]
             --FLEXBOX START
             [ contentTile "Life"
             , contentTile "Obit"
