@@ -7,25 +7,29 @@ This was first deployed on October 10th, 2018, at http://takenattheflood.us<br/>
 It is my first command-line-deployment to a shared server (1&1).
 
 ## To Do
-* style: lower-res the whitney panorama
-* style: bring the font blue closer to the sky blue in the photo
-* refactor static html to Elm
 * add modest SEO to get Dad's obituary visible
 * add Elm model-update-view for one feature
 * learn the logs: which does which, how to download server logs to local for archiving and inspection
-* rudimentary SEO
 * Install node on their server
 * build the API
 * Twillio
 
 ## Why *Taken At The Flood*?
 This is from Act V of Julius Caesar.  Brutus explains his resolve, that 
-he has no regret for joining the junta and goes to his death as a real Roman, 
+he has no regret for joining the junta.  He goes to his death as a real Roman, 
 unconflicted.
 A 1947 book title by Agatha Christie beat me to this quote.
 
 ## How's it going so far?
-__I want to do it the hard way:__
-Instead of ftp, I am updating my web page via LocalCommit -> GitHubRemote -> PullToHostingServer.  This is 3x more steps and is causing many merge/conflicts. Which is actually good news, pedagogically.<br>
-__Good news:__ I'm getting much better at Git and Vim-mergetool. And it's a good place to be wrong: this is a  low-stakes, static, mostly-for-fun page. 
+
+__October 12, 2018__
+It's up!  No CMS, just an index.html file, live.  
+__October 14, 2018:__
+Instead of ftp, I am updating my web page via LocalCommit -> GitHubRemote -> PullToHostingServer.  This is 
+3x more steps and causes many merge/conflicts. Which are interesting, Git-pedagogically. Git says 
+"here, try your first taste of Vim-Merge".<br>
+
+__October 22, 2018__
+Workflow more conventional now: edit my .Elm file.  Compile that in Elm compiler to html/js.  Push those 
+directly by mirroring to the hosted server at 1&1 with FTP or sometimes Beyond Compare mirror.   
 
