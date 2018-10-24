@@ -20,7 +20,7 @@ body {
 
 body, input {
   color: midnightblue;
-  xfont-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
 }
 
 #site-header {
@@ -50,10 +50,23 @@ header, p {
 
 }
 
-.starboard {
-  text-align: right;
-  margin-right: 90px;
+/*****footer begin**********/
+p span {
+  color: var(--lightRock);
+  padding-left: 10px;
+
+} /* note SPECIFIC CHILD */
+
+#elm {
+  color: var(--darkRock);
+  font-family: courier, monospace;
 }
+
+p span {
+  text-align: right;
+  margin-left: 90px;
+}
+/*****footer end**********/
 
 .content {
   background-color: var(--lightRock);
@@ -121,3 +134,5 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+/*The footer of Fontawesome's page was doing some cool #Halloween animations today.  Built from font icons. #css https://fontawesome.com/  */
