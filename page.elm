@@ -33,16 +33,16 @@ pondOfTiles =
 
 
 downstairs =
-    footer [ class "starboard" ]
-        [ p [ class "fab fa-github" ] [ text " atom-box  " ]
-        , p [] [ text "This site was compiled from Elm" ]
-        , p [ class "fab fa-twitter" ] [ text " @mistergenest  " ]
-        , p [ class "fab fa-linkedin" ] [ text " Evan Genest  " ]
+    p [ class "fab starboard" ]
+        [ span [ class " fa-github" ] []
+        , span [] [ text "This site was compiled from Elm" ]
+        , span [ class " fa-twitter" ] [ text " @mistergenest  " ]
+        , span [ class " fa-linkedin" ] [ text " Evan Genest  " ]
         ]
 
 
 madeWith =
-    p [ class "starboard" ] [ text "This site was compiled from Elm" ]
+    p [ class "starboard" ] [ text "This site was compiled from pen and ink" ]
 
 
 
