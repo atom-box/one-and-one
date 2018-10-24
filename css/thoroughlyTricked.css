@@ -73,16 +73,18 @@ header, p {
 span {
   color: var(--lightRock);
   text-align: right;
+  margin: 0px;
+  padding: 0px;
 } /* note SPECIFIC CHILD */
 
-.fab.fa-linkedin { 
+.fab.fa-linkedin, .fab.fa-twitter, .fab.fa-github { 
   color: var(--lightRock);
-  padding-left: 30px;
- }
+  margin-left:  40px;
+  margin-right: 0px;
+}
 
 p span {
   text-align: right;
-  margin-left: 16px;
 }
 /*****footer end**********/
 

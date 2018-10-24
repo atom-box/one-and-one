@@ -36,7 +36,7 @@ downstairs =
     p []
         [ span [] [ text "This site was compiled from Elm" ]
         , span [ class "fab fa-twitter" ] []
-        , span [] [ text "@mistergenest" ]
+        , span [ class "tight" ] [ text "@mistergenest" ]
         , span [ class "fab fa-linkedin" ] []
         , span [] [ text "Evan Genest" ]
         , span [ class "fab fa-github" ] []
