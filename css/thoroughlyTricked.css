@@ -47,24 +47,29 @@ h3 {
 header, p {
   color: var(--palerSky);
   font-weight: lighter;
-
 }
 
+
 /*****footer begin**********/
-p span {
+ span {
   color: var(--lightRock);
   padding-left: 10px;
+  text-align: right;
 
 } /* note SPECIFIC CHILD */
 
-#elm {
-  color: var(--darkRock);
+#starboard{
+  color: yellow;
+  font-size: 30px;
   font-family: courier, monospace;
+  /*thisbreaksicon  BUT doesn't implement either*/
+  
+
 }
 
 p span {
   text-align: right;
-  margin-left: 90px;
+  margin-left: 16px;
 }
 /*****footer end**********/
 
