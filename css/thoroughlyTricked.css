@@ -50,22 +50,35 @@ header, p {
 }
 
 
-/*****footer begin**********/
- span {
-  color: var(--lightRock);
-  padding-left: 10px;
-  text-align: right;
-
-} /* note SPECIFIC CHILD */
+/* (1) The exact thing that breaks the FA is imposing a font.*/
+/* I got the double .FAB.FA-LINKED IN WORKING and */
+/* as soon as you add one font line there it breaks the FA */
+/* (2) Anything besides span span span breaks the monoline.*/
+/* (3) PULLINg to the right should be doable though.*/
+/**/
+/**/
 
 #starboard{
   color: yellow;
   font-size: 30px;
-  font-family: courier, monospace;
+  font-family: helvetica, arial, sans-serif;
   /*thisbreaksicon  BUT doesn't implement either*/
-  
+}
+
+.tight {
+  padding: auto, 0px;
 
 }
+
+span {
+  color: var(--lightRock);
+  text-align: right;
+} /* note SPECIFIC CHILD */
+
+.fab.fa-linkedin { 
+  color: var(--lightRock);
+  padding-left: 30px;
+ }
 
 p span {
   text-align: right;
@@ -141,3 +154,6 @@ a:active {
 }
 
 /*The footer of Fontawesome's page was doing some cool #Halloween animations today.  Built from font icons. #css https://fontawesome.com/  */
+ "CSS is like some kind of Dark Art." 
+(@adamstako on The Changelog podcast)
+I agree. #100DaysOfCode

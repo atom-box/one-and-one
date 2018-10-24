@@ -33,11 +33,14 @@ pondOfTiles =
 
 
 downstairs =
-    p [ class "fab" ]
-        [ span [ id "starboard" ] [ text "This site was compiled from Elm" ]
-        , span [ class " fa-twitter" ] [ text "@mistergenest  " ]
-        , span [ class " fa-linkedin" ] [ text " Evan Genest  " ]
-        , span [ class " fa-github" ] [ text "atom-box" ]
+    p []
+        [ span [] [ text "This site was compiled from Elm" ]
+        , span [ class "fab fa-twitter" ] []
+        , span [] [ text "@mistergenest" ]
+        , span [ class "fab fa-linkedin" ] []
+        , span [] [ text "Evan Genest" ]
+        , span [ class "fab fa-github" ] []
+        , span [] [ text "atom-box" ]
         ]
 
 
