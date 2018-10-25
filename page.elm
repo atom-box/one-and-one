@@ -11,7 +11,7 @@ contentTile describeProject =
 topWords =
     header [ id "site-header" ]
         [ h1 [] [ text "Taken at the Flood" ]
-        , p [] [ text "Unrelentless since 10/12/2018." ]
+        , p [ id "provenence" ] [ text "Unrelentless since 10/12/2018." ]
         ]
 
 
@@ -23,9 +23,9 @@ pondOfTiles =
     div [ class "content" ]
         [ div [ id "pond" ]
             --FLEXBOX START
-            [ contentTile "Life"
-            , contentTile "Obit"
-            , contentTile "Proj"
+            [ contentTile "New York Diary"
+            , contentTile "Rob Miller Trubute"
+            , contentTile "Web Projects"
             ]
 
         -- FLEXBOX END

@@ -8,7 +8,7 @@ and cssTricks.com */
 :root {
     --lightRock: rgb(194, 186, 172); 
     --darkRock: rgb(76, 77, 75);
-    --skyColor: rgb(113, 165, 249);
+    --skyColor: rgb(124, 172, 255);
     --palerSky: rgb(165, 220, 255 );
 }
 
@@ -18,34 +18,30 @@ body {
   font-size: 1rem;
 }
 
-body, input {
-  color: midnightblue;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+#provenence {
+  color: white;
 }
 
 #site-header {
   padding: 0.5em 2%;
-  background-color: var(--skyColor);
 }
 
 h1 {
   font-weight: lighter;
   font-size: 3em;
-  color: var(--palerSky);
+  color: var(--skyColor);
   margin: 0.2em;
+  text-shadow: 1px 1px yellow;
+
 }
 
-h2 {
-  font-weight: normal;
-  font-size: 2em;
-}
 
-h3 {
+xh3 {
   font-weight: 500;
 }
 
 header, p {
-  color: var(--palerSky);
+  xcolor: var(--palerSky);
   font-weight: lighter;
 }
 
@@ -58,7 +54,7 @@ header, p {
 /**/
 /**/
 
-#starboard{
+#xstarboard{
   color: yellow;
   font-size: 30px;
   font-family: helvetica, arial, sans-serif;
@@ -123,11 +119,14 @@ p span {
   display: flex;
   justify-content: center; 
   align-items: center; 
-  font-size: 30px;
   color: var(--palerSky);
   background-color: var(--darkRock);
+  font-weight: lighter;
 }
 
+.content #pond {
+  color: white;
+}
 
 /* links           */
 /*******************/
