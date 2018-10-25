@@ -1,8 +1,5 @@
 /* Based on CSS seen at github.com/verythorough and
 and cssTricks.com */
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
-@import url('https://fonts.googleapis.com/css?family=Caveat+Brush'
-);
 
 /* who knew!  css can handle variables:; */
 :root {
@@ -15,7 +12,6 @@ and cssTricks.com */
 body {
   margin: 0;
   text-align: center;
-  font-size: 1rem;
 }
 
 #provenence {
@@ -36,9 +32,6 @@ h1 {
 }
 
 
-xh3 {
-  font-weight: 500;
-}
 
 header, p {
   xcolor: var(--palerSky);
@@ -119,9 +112,10 @@ p span {
   display: flex;
   justify-content: center; 
   align-items: center; 
-  color: var(--palerSky);
+    font-family: verdana;
+    font-size: 10px;
   background-color: var(--darkRock);
-  font-weight: lighter;
+  font-stretch: 2;
 }
 
 .content #pond {

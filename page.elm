@@ -24,7 +24,7 @@ pondOfTiles =
         [ div [ id "pond" ]
             --FLEXBOX START
             [ contentTile "New York Diary"
-            , contentTile "Rob Miller Trubute"
+            , contentTile "GoGo Miller Tribute"
             , contentTile "Web Projects"
             ]
 
