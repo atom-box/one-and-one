@@ -32,31 +32,20 @@ h1 {
 }
 
 
-
 header, p {
   xcolor: var(--palerSky);
   font-weight: lighter;
 }
 
 
-/* (1) The exact thing that breaks the FA is imposing a font.*/
-/* I got the double .FAB.FA-LINKED IN WORKING and */
-/* as soon as you add one font line there it breaks the FA */
 /* (2) Anything besides span span span breaks the monoline.*/
 /* (3) PULLINg to the right should be doable though.*/
 /**/
 /**/
 
-#xstarboard{
-  color: yellow;
-  font-size: 30px;
-  font-family: helvetica, arial, sans-serif;
-  /*thisbreaksicon  BUT doesn't implement either*/
-}
 
 .tight {
   padding: auto, 0px;
-
 }
 
 span {
@@ -72,9 +61,6 @@ span {
   margin-right: 0px;
 }
 
-p span {
-  text-align: right;
-}
 /*****footer end**********/
 
 .content {
@@ -112,15 +98,11 @@ p span {
   display: flex;
   justify-content: center; 
   align-items: center; 
-    font-family: verdana;
-    font-size: 10px;
+  color: var(--lightRock);
   background-color: var(--darkRock);
-  font-stretch: 2;
+  font-size: 26px;
 }
 
-.content #pond {
-  color: white;
-}
 
 /* links           */
 /*******************/
@@ -148,7 +130,4 @@ a:active {
     text-decoration: underline;
 }
 
-/*The footer of Fontawesome's page was doing some cool #Halloween animations today.  Built from font icons. #css https://fontawesome.com/  */
- "CSS is like some kind of Dark Art." 
-(@adamstako on The Changelog podcast)
-I agree. #100DaysOfCode
+

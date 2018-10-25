@@ -5,7 +5,7 @@ import Html.Attributes exposing (..)
 
 
 contentTile describeProject =
-    div [ class "blox" ] [ h3 [] [ text describeProject ] ]
+    div [ class "blox smallType" ] [ p [] [ text describeProject ] ]
 
 
 topWords =
