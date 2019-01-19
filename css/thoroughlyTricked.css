@@ -106,7 +106,7 @@ span {
 
 /* links           */
 /*******************/
-a:link {
+a:xlink {
     color: green;
     background-color: transparent;
     text-decoration: none;
@@ -117,6 +117,12 @@ a:visited {
     background-color: transparent;
     text-decoration: none;
 }
+
+div:hover {
+  box-shadow: 3px 3px white;
+
+}
+
 
 a:hover {
     color: red;

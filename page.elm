@@ -5,7 +5,7 @@ import Html.Attributes exposing (..)
 
 
 contentTile describeProject =
-    div [ class "blox smallType" ] [ p [] [ text describeProject ] ]
+    div [ class "blox smallType" ] [ a [ href "www.example.com" ] [ text describeProject ] ]
 
 
 topWords =
@@ -34,13 +34,13 @@ pondOfTiles =
 
 downstairs =
     p []
-        [ span [] [ text "This site was compiled from Elm" ]
+        [ a [ href "http://elm-lang.org/" ] [ text "Made with Elm" ]
         , span [ class "fab fa-twitter" ] []
-        , span [ class "tight" ] [ text "@mistergenest" ]
+        , a [ href "https://twitter.com/mistergenest" ] [ text "@mistergenest" ]
         , span [ class "fab fa-linkedin" ] []
-        , span [] [ text "Evan Genest" ]
+        , a [ href "https://www.linkedin.com/in/evan-genest-b6648380" ] [ text "Evan Genest" ]
         , span [ class "fab fa-github" ] []
-        , span [] [ text "atom-box" ]
+        , a [ href "https://github.com/atom-box/" ] [ text "atom-box" ]
         ]
 
 
