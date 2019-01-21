@@ -22,6 +22,11 @@ body {
   padding: 0.5em 2%;
 }
 
+.tiny-wallpaper {
+  font-size: 0.5em;
+  color: #ccc;
+}
+
 h1 {
   font-weight: lighter;
   font-size: 3em;
