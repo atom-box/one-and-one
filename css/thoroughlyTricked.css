@@ -14,9 +14,42 @@ body {
   text-align: center;
 }
 
-#provenence {
-  color: white;
+.wrapper {
+  background-color: red;
 }
+#infoi {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.navi {
+  postion: relative;
+  left: 10;
+  font-size: 200%
+}
+
+/*commit */
+/*commit Make Div3 overlap, transparently, Div2.*/
+
+#board-frame {
+  background-color: red;
+}
+#board-rug {
+  background-color: skyblue ;
+  height: 300px;
+}
+
+#board-onionskin {
+  position: relative;
+  opacity: 0.2;
+  min-height: inherit;
+  right: 0px;
+  top: -300px;
+  background-color: #333;
+  font-size: 200%;
+
+}
+
 
 #site-header {
   padding: 0.5em 2%;
@@ -28,18 +61,17 @@ body {
 }
 
 h1 {
-  font-family: Love+Ya+Like+A+Sister, Courier, fantasy;
+  font-family:  Courier, fantasy;
   font-weight: lighter;
-  font-size: 3em;
+   font-size: 710%;
   color: var(--skyColor);
   margin: 0.2em;
   text-shadow: 1px 1px yellow;
-
 }
 
 
 header, p {
-  xcolor: var(--palerSky);
+  color: var(--palerSky);
   font-weight: lighter;
 }
 
@@ -75,21 +107,6 @@ span {
 
 }
 
-/*commit Make Divs 2&3 lay inside of Div1.*/
-/*commit Make Div3 overlap, transparently, Div2.*/
-
-#board-frame {
-  min-height: 300px;
-  color: yellow;
-  background-color: black;
-}
-#board-rug {
-  background-color: olive ;
-}
-#board-onionskin {
-  float: left;
-  background-color: silver;
-}
 
 #site-header {
   background-color: rgb(194, 186, 172);
