@@ -28,6 +28,7 @@ body {
 }
 
 h1 {
+  font-family: Love+Ya+Like+A+Sister, Courier, fantasy;
   font-weight: lighter;
   font-size: 3em;
   color: var(--skyColor);
@@ -73,6 +74,23 @@ span {
   min-height: 160px; /* TODO units inconsistant... */
 
 }
+
+/*commit Make Divs 2&3 lay inside of Div1.*/
+/*commit Make Div3 overlap, transparently, Div2.*/
+
+#board-frame {
+  min-height: 300px;
+  color: yellow;
+  background-color: black;
+}
+#board-rug {
+  background-color: olive ;
+}
+#board-onionskin {
+  float: left;
+  background-color: silver;
+}
+
 #site-header {
   background-color: rgb(194, 186, 172);
 }
