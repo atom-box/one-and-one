@@ -2,7 +2,7 @@
 and cssTricks.com */
 
 /* who knew!  css can handle variables:; */
-:root {
+:root { 
     --lightRock: rgb(194, 186, 172); 
     --darkRock: rgb(76, 77, 75);
     --skyColor: rgb(124, 172, 255);
@@ -31,43 +31,50 @@ body {
 /*commit */
 /*commit Make Div3 overlap, transparently, Div2.*/
 
-#board-frame {
+#board-frame{
   background-color: red;
 }
-#board-rug {
-  background-color: skyblue ;
+
+#board-rug, #board-onionskin {
+  position: absolute;
   height: 300px;
+}
+
+
+#board-rug {
+  background-color: --lightRock ;
 }
 
 #board-onionskin {
   position: relative;
   opacity: 0.2;
-  min-height: inherit;
   right: 0px;
-  top: -300px;
   background-color: #333;
-  font-size: 200%;
-
+  font-size: 1.2rem;
+  z-index: 5;
+  line-height: 1.22rem;
 }
 
+#board-onionskin__link {
+  color: white;
+}
 
 #site-header {
   padding: 0.5em 2%;
 }
 
-.tiny-wallpaper {
-  font-size: 0.5em;
-  color: #ccc;
-}
 
-h1 {
+.site-header__title {
   font-family:  Courier, fantasy;
   font-weight: lighter;
-   font-size: 710%;
+   font-size: 2.85rem;
   color: var(--skyColor);
   margin: 0.2em;
+  text-align: center;
   text-shadow: 1px 1px yellow;
+  line-height: 3rem;
 }
+
 
 
 header, p {
@@ -93,7 +100,7 @@ span {
   padding: 0px;
 } /* note SPECIFIC CHILD */
 
-.fab.fa-linkedin, .fab.fa-twitter, .fab.fa-github { 
+.fa-linkedin, .fa-twitter, .fa-github, .fa-desktop  { 
   color: var(--lightRock);
   margin-left:  40px;
   margin-right: 0px;
@@ -146,7 +153,7 @@ span {
 
 /* links           */
 /*******************/
-a:xlink {
+xa:link {
     color: green;
     background-color: transparent;
     text-decoration: none;
