@@ -3,7 +3,7 @@ and cssTricks.com */
 
 /* who knew!  css can handle variables:; */
 :root { 
-    --lightRock: rgb(194, 186, 172); 
+    --lightRock: rgb(203, 203, 203); 
     --darkRock: rgb(76, 77, 75);
     --skyColor: rgb(124, 172, 255);
     --palerSky: rgb(165, 220, 255 );
@@ -163,27 +163,23 @@ a:visited {
 }
 
 .blox:hover {
-  background-color: white;
+  background-color: var(--palerSky);
+  color: var(darkRock);
 
 }
 
 
-xa:hover {
-    text-shadow: 2px 2px white;
-    font-family: courier;
-}
 
-xa:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
 
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
   padding: 15px;
+  color: var(--palerSky);
+}
+.row {
+  background-color: var(--darkRock);
 }
 
 /* Clear floats after the columns */
