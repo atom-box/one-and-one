@@ -1,38 +1,156 @@
-
-<!DOCTYPE html>
-<html>
-  <head> 
-    <title>Taken at the Flood: Evan Genest</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-       <meta name="description" content="This is a permanent shrine for remembering these friends and family: Carl Zemke obituary, Ken Genest obituary, and Rob Miller (of Auburn Hills, Michigan) obituary." />
-    <meta name="robots" content="all">
-    <meta name="robots" content="follow">
-    <meta name="author" content="Evan Genest">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-   
-  </head> 
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>12:13 · Bootstrap</title>
+ 
+<xstyle type="text/css">
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
 
-	<body >
-
-
-
-		<div class="container-fluid"> 
-			<header id="site-header board-frame">
-  				<div  id="board-rug">
-  					<h1 class="site-header__title">Taken at the Flood</h1>
-  				</div>
-	  			<div id="board-onionskin">
-  					<p>There is a tide in the affairs of men, which, <a id="board-onionskin__link" href="https://www.sparknotes.com/nofear/shakespeare/juliuscaesar/page_186/">taken at the flood</a>, leads on to fortune; Omitted, all the voyage of their life is bound in shallows and in miseries. On such a full sea are we now afloat, And we must take the current when it serves or lose our ventures. There is a tide in the affairs of men, which, <a id="board-onionskin__link" href="https://www.sparknotes.com/nofear/shakespeare/juliuscaesar/page_186/">taken at the flood</a>, leads on to fortune; Omitted, all the voyage of their life is bound in shallows and in miseries. On such a full sea are we now afloat, And we must take the current when it serves or lose our ventures.</p>
-	  			</div>
-			</header>
-				<img src="images/whitneySmall.jpg" class="img-fluid cinch" alt="Panorama: Tom, Evan, Sam, Fred, Mt Whitney 2018">
-
-<!------>
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
 
 
-<
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+</style>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Carousel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Turkey <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</header>
+
 <main role="main">
+
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -80,58 +198,98 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2>Heading</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
 </main>
 
-<!------->
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-			<div class="content">
-				<div  id="pond">
-					<a href="https://codepen.io/atom_box/full/gxyXxY/">
-					<div class="blox"><h3>Carl Zemke.</h3></div>
-					</a>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-					<a href="https://kengenest.weebly.com/">
-					<div class="blox"><h3>Ken Genest.</h3></div>
-					</a>
-					
-					<a href="http://gogomiller.weebly.com/">
-					<div class="blox"><h3>Rob Miller.</h3></div>
-					</a>
-				</div> 
-			</div>
-
-<div class="row">
-  <div class="column">
-    <h2>1965-2016</h2>
-    <p>Carl Zemke passed away Tuesday, October 11, 2016 in his home.  Carl attended Andover Lahser High School, Oakland University.  He loved Soccer, skiing, glass blowing, and his little red pickup truck.  I knew Carl in the 1980s and 1990s.  At university we got into shenanigans together, including liberties in the employees-only areas at Blue Mountain Ontario, taking a 30 minute cab ride in Toronto that we had no money to pay for, borrowing the campus security vehicle and  abandoning it behind the school gym, and a night in Detroit jail for writing our friend's name on a wall near the Wayne State athletic field.  Our more respectable activities were studying for undergrad tests in engineering and riding bikes in Chicago where he came to visit me a few times after college.  We loved professor Robert Feinstein's Organic Chemistry class at Oakland University.  Carl liked to walk barefoot in the city: think of the most littered, broken glass place -- Carl would take off his shoes to stroll there.  I've never had a friend that enjoyed living as much as Carl did.</p>
-  </div>
-  
-  <div class="column">
-    <h2>1932-2018</h2>
-    <p>My father, Kenneth Paul Genest was the son of Mildred Genest & Arthur Genest, and husband of Sharon Genest. <a href"https://wujekcalcaterra.tributes.com/obituary/guestbook/Kenneth-Paul-Genest-106247969">Ken Genest obituary, full</a>  My dad was born March 3, 1932.  He died July 8, 2018.  He had been declining for two years due to ALS when a fall at a restaurant left him bleeding from the head and led to hospitalization.  He was too weak after that to breathe under his own power.  It was decided to take out the breathing tube.  He passed away surrounded by a dozen loving family members around his hospital bed.  In his long life he lived in Manchester, New Hampshire, Meriden Connecticut, overseas in Germany during military service, and finally in Clinton Township, Michigan. In the 1960s at General Motors Tech Center Design Staff his team designed the Chevrolet Corvair & Buick Riviera.  He graduated from Pratt Institute in Brooklyn New York where he met my mom, Lyn Sieffert (Jacky Grineff).  John Deere tractors and Volkswagen Beetles were high on his list of beautiful things. </p>
-  </div>
-  
-  <div class="column">
-    <h2>1965-2017</h2>
-    <p>Robert Miller was my roomate in college. I have not yet found Rob Miller's obituary . Rob lived in Auburn Heights, was born in Pontiac, Michigan, had two marriages and one son, Evan Miller.  Rob graduated Avondale High School and Oakland University.  Rob loved Prince, Michael, Detroit Tigers, and Shakespeare.  Rob lived in his imagination: Don Quixote, the Jay Gatsby, and Falstaff were real people to him.  Morris Day and later Miles Davis were his great heroes.  I would summarize Rob as passionate to the point of irrationality, which is the defintion of a Romantic, maybe. We met The Beastie Boys when they and we were 20 years old after their first show at St Andrews Hall in 1985.  They were here with almost no repertoire yet, had just a single, and were here for a one-off show on the quirk of 102.7 putting Cookie Puss in heavy rotation.  Rob and I drove to Toronto on an impulse one night, only to arrive having lost our money and immediately driving directly back home to Michigan.  He and I corresponded by text a lot during the Prince Fielder / Justin Verlander era of Detroit Tigers, thrilled that Miguel Cabrera won the Triple Crown that year.  Rob's family were extremely important to him.  His parents were gigantic heroes to him.  His grandmother was his spirtual center.  Rob's one ambition I remember is he wanted to write a great novel.  His role models in this may have been Charles Bukowski and David Foster Wallace.</p>
-  </div>
-</div>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
 
 
-		</div>
-		<footer>
-			<div class="starboard">
-				<i class="fab fa-github"></i>
-				<a href="https://github.com/atom-box/">Github</a>
-				<i class="fab fa-twitter" ></i>
-				<a href="https://twitter.com/mistergenest">Twitter</a>
-				<i class="fab fa-linkedin" ></i><a href="https://www.linkedin.com/in/evan-genest-b6648380">LinkedIn </a>
-				<i class="fas fa-desktop" ></i><a href="https://www.linkedin.com/in/evan-genest-b6648380">Portfolio </a>
-				<p><span>Unrelentless since 10/12/2018.  </span></div></p>
-			</div>
-		</footer>
-	</body>
-	<link rel="stylesheet" href="styles/thoroughlyTricked.css">    
-
+    </body>
 </html>
-
